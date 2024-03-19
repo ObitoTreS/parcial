@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>MORO NEWS</h1>
+<!NAVBAR>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Noticias</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="admin.html">Admin</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html">Sign up</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Mision</a></li>
+                  <li><a class="dropdown-item" href="#">Vision</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!NOTICIAS>
+      <div class="card-container">
+      <div class="card" style="width: 18rem;">
+        <img src="https://imagenes.eltiempo.com/files/image_1200_600/files/fp/uploads/2024/03/18/65f8ffe134e05.r_d.1517-827-4167.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">¿Como va Milei y su mandato?</h5>
+          <p class="card-text">A 100 dias de su mandato asi van las cosas con el famoso presidente de argentina</p>
+          <a href="https://www.eltiempo.com/mundo/latinoamerica/a-100-dias-del-gobierno-de-milei-como-va-su-experimento-economico-en-argentina-3325753" class="btn btn-primary">Leer mas</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://www.lanacion.com.co/wp-content/uploads/2023/11/FOTO-SELECCION-COLOMBIA.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Los 26 de la selección Colombia para enfrentar a España y Rumania
+        </h5>
+          <p class="card-text">Con dos amistosos en territorio europeo, la selección Colombia pone en marcha un 2024 en el que buscará la gloria continental.</p>
+          <a href="#" class="btn btn-primary">Leer mas</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://cnnespanol.cnn.com/wp-content/uploads/2024/03/unknown-20240308133446161.jpg?quality=100&strip=info&w=940&h=530&crop=1" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Con 13 años, creó un rayo de la muerte en miniatura. Este fue el resultado</h5>
+          <p class="card-text">Durante siglos, científicos han especulado sobre el rayo de la muerte de Arquímedes. Con solo 13 años, este estudiante creó una versión en miniatura</p>
+          <a href="https://cnnespanol.cnn.com/2024/03/19/estudiante-13-anos-rayo-de-la-muerte-trax/" class="btn btn-primary">Leer mas</a>
+        </div>
+      </div>
+      </div>
+      <br>
+      <!ACORDEON>
+      <section><h2>Otras noticias</h2>
+        <div class="container-fluid">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  NACIONALES
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li><a href="https://www.lanacion.com.co/">La Nacion</a></li>
+                        <li><a href="https://www.elespectador.com/">El espectador</a></li>
+                    </ul>
+                    </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  INTERNACIONALES
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li><a href="https://www.nytimes.com/international/">New York Times</a></li>
+                        <li><a href="https://www.economist.com/">The Economist</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+    
+    </section>
+      
+</body>
+</html>
